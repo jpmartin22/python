@@ -1,0 +1,29 @@
+name=input("Type your name kid!")
+print("Well come to the adventure, ",name)
+
+answer=input("your are the end,Please write right to go on right side or left to go on left side !: ").lower()
+if answer=="right":
+    right_side=input("kid,there are cycles .if you want continue with cycling,please write ride or if you want mess around please type walk: ").lower()
+    if right_side=="ride":
+        print("Enjoy the ride kid!!")
+    elif right_side=="walk":
+        print("Enjoy the walk kid!!")
+    else:
+        print("not valid option ,YOU LOST kid!")
+
+elif answer=="left":
+    left_side=input("kid,there is beutiful sunset,to watch it,please write lakeview: ").lower()
+    if left_side=="lakeview":
+        print("Enjoy the view kid!! ") 
+    else:
+        print("not valid option ,YOU LOST kid!")    
+else:
+    print("not valid option ,YOU LOST kid!")    
+
+print("see you in the next adventure kid!") 
+
+
+
+
+
+
